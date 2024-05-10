@@ -2,7 +2,7 @@ export default class Character {
   constructor(name, type) {
     if (name.length < 2 || name.length > 10 || typeof name !== 'string') {
       throw new Error(
-        'Имя должно являться строкой и содержать от 2х до 10 символов'
+        'Имя должно являться строкой и содержать от 2х до 10 символов',
       );
     }
 
